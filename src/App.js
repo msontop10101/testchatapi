@@ -35,8 +35,8 @@ const App = () => {
 
   return (
     <div style={{ backgroundColor: 'gray', height: '100vh', width: '100vw', position: 'relative' }}>
-      <div className='chatbox'>
-        <div className='chat-log'>
+      <div className='chatbox absolute bottom-0'>
+        <div className='chat-log absolute bottom-0'>
           {chatLog.map((message, index) => (
             <ChatMessage key={index} message={message} />
           ))}

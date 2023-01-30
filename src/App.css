@@ -1,6 +1,21 @@
+.chatbox {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+}
+.chat-log {
+  background-color: aqua;
+  width: 50%;
+  padding: 20px;
+
+}
 .chat-message {
   display: flex;
+  background-color: red;
 }
 .chatgpt {
   color: white;
+  background-color: black;
 }
